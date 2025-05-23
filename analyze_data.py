@@ -50,6 +50,7 @@ def analyze_variable_distribution():
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.savefig('variable_distribution.png')
+    print("Variable distribution analysis completed")
     plt.close()
 
 def analyze_industry_composition():
